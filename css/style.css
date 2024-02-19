@@ -52,8 +52,8 @@ header {
     display: flex;
     justify-content: space-between;
 }
-#lists .items{
-    width: 10px;
+#Items{
+    width: 50%;
 }
 #line{
     border: 1px grey solid;
@@ -61,15 +61,22 @@ header {
     width: 100%;
     display: flex;
 }
-#cart1{
+.cart1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .cart1 img{
     width: 7vw;
 }
-.button{
+.button1{
     border: black 1px solid;
     border-radius: 5px;
+    padding: 2px;
+}
+#cart1a{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
 }
