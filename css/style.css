@@ -77,6 +77,16 @@ header {
 }
 #cart1a{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     width: 50%;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.ends{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
 }
