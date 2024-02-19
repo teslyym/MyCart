@@ -50,5 +50,26 @@ header {
 }
 #lists{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+#lists .items{
+    width: 10px;
+}
+#line{
+    border: 1px grey solid;
+    height: 5%;
+    width: 100%;
+    display: flex;
+}
+#cart1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.cart1 img{
+    width: 7vw;
+}
+.button{
+    border: black 1px solid;
+    border-radius: 5px;
 }
