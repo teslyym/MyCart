@@ -90,3 +90,18 @@ header {
     display: flex;
     justify-content: space-between;
 }
+@media (max-width: 576px) {
+  #main,
+  #second {
+    width: 100%;
+  }
+  .all {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  #all {
+    width: 100%;
+  }
+}

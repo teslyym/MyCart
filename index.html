@@ -1,181 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-       <div class="first">
+      <div class="first">
+        <img id="headimg" src="./res/images.jpeg" width="300px" />
 
-           <img id="headimg" src="./res/images.jpeg" width="300px">
-        
-               <a id= "selected" href="">Fire Pit</a>
-               <a href="">Pizza Oven</a>
-               <a href="">Grill</a>
-               <a href="">Camp Stove</a>
-               <a href="">Corporate Sales</a>
-        
-        </div>
-        <div class="second">
-
-            <form id="search" action="/search" method="GET">
-                <input type="text" placeholder="Search Fire Pit, Grill, Camp Stove, Grill" name="search">
-                <!-- <button type="submit">Search</button> -->
-            </form>
-            <img src="./res/image2.png" alt="">
-            <img id="nav4" src="./res/image3.png" alt="">
-            <img src="./res/image4.avif" alt="">
-            <img src="./res/shopping-cart-vector-icon-flat-600nw-1690453492.webp" alt="">
-        </div>
+        <a id="selected" href="">Fire Pit</a>
+        <a href="">Pizza Oven</a>
+        <a href="">Grill</a>
+        <a href="">Camp Stove</a>
+        <a href="">Corporate Sales</a>
+      </div>
+      <div class="second">
+        <form id="search" action="/search" method="GET">
+          <input
+            type="text"
+            placeholder="Search Fire Pit, Grill, Camp Stove, Grill"
+            name="search"
+          />
+          <!-- <button type="submit">Search</button> -->
+        </form>
+        <img src="./res/image2.png" alt="" />
+        <img id="nav4" src="./res/image3.png" alt="" />
+        <img src="./res/image4.avif" alt="" />
+        <img
+          src="./res/shopping-cart-vector-icon-flat-600nw-1690453492.webp"
+          alt=""
+        />
+      </div>
     </header>
-    
-<section class="title">
-    <h1>My Cart {4 Items}</h1>
-</section>
-<section  class="list">
-    <div id="lists">
+
+    <section class="title">
+      <h1>My Cart {4 Items}</h1>
+    </section>
+    <section class="list">
+      <div id="lists">
         <h1 id="Items">Items</h1>
         <h1>Price</h1>
         <h1>Quantity</h1>
         <h1>Total</h1>
-    </div>
-    <div id="line">
-
-    </div>
-</section>
-<section>
-    <div class="cart1">
-        <div id="cart1a">
-            <img src="./res/pizza stove.jpg" alt="">
+      </div>
+      <div id="line"></div>
+    </section>
+    <section>
+      <div class="carrt">
+        <div class="cart1">
+          <div id="cart1a">
+            <img src="./res/pizza stove.jpg" alt="" />
             <div>
-                <h1>Pi Pizza Oven</h1>
-                <p>{Estimated Ship Date: June 6th}</p>
-                <h2>Fuel source: Wood Only</h2>
-                <h3>Change</h3>
+              <h1>Pi Pizza Oven</h1>
+              <p>{Estimated Ship Date: June 6th}</p>
+              <h2>Fuel source: Wood Only</h2>
+              <h3>Change</h3>
             </div>
-        </div>
-         <div>
-           <h1>$469.99</h1> 
-         </div>
-         <div>
-                <div class="button1">
-                <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
-                <button class="decrement">-</button>
-                <span class="quantity">1</span>
-                <button class="increment">+</button>
-                <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
-                <button class="delete">Delete</button> -->
-                </div>
-         </div>
-         <div>
-             <h1>$469.99</h1>
           </div>
-    </div>
-    <hr>
-    <div class="cart1"> 
-        <div id="cart1a">
-        <img src="./res/grill ultimate bundle.jpeg" alt="">
-        <div>
-            <p>Solo Stove</p>
-            <h1>Grill Ultimate Bundle</h1>
-            <h2>Add accident protection for $29.99</h2>
-        </div>
-    </div>
-     <div>
-       <h1>$549.99</h1> 
-     </div>
-     <div>
+          <div>
+            <h1>$<span class="price">469.99</span></h1>
+          </div>
+          <div>
             <div class="button1">
-            <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
-            <button class="decrement">-</button>
-            <span class="quantity">1</span>
-            <button class="increment">+</button>
-            <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
+              <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
+              <button class="decrement">-</button>
+              <span class="quantity">1</span>
+              <button class="increment">+</button>
+              <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
+                <button class="delete">Delete</button> -->
+            </div>
+          </div>
+          <div>
+            <h1>$<span class="total">469.99</span></h1>
+          </div>
+        </div>
+        <hr />
+        <div class="cart1">
+          <div id="cart1a">
+            <img src="./res/grill ultimate bundle.jpeg" alt="" />
+            <div>
+              <p>Solo Stove</p>
+              <h1>Grill Ultimate Bundle</h1>
+              <h2>Add accident protection for $29.99</h2>
+            </div>
+          </div>
+          <div>
+            <h1>$<span class="price">549.99</span></h1>
+          </div>
+          <div>
+            <div class="button1">
+              <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
+              <button class="decrement">-</button>
+              <span class="quantity">1</span>
+              <button class="increment">+</button>
+              <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
             <button class="delete">Delete</button> -->
             </div>
-     </div>
-     <div>
-         <h1>$549.99</h1>
-      </div>
-    </div>
-    <hr>
-    <div class="cart3"><div class="cart1"> 
-        <div id="cart1a">
-        <img src="./res/starters.jpg" alt="">
-        <div>
-            <p>Solo Stove</p>
-            <h1>Starters</h1>
-            <h2>{4 Pack}</h2>
+          </div>
+          <div>
+            <h1>$ <span class="total">549.99</span></h1>
+          </div>
         </div>
-    </div>
-     <div>
-       <h1>$0.00</h1> 
-     </div>
-     <div>
+        <hr />
+        <div class="cart1">
+          <div id="cart1a">
+            <img src="./res/starters.jpg" alt="" />
+            <div>
+              <p>Solo Stove</p>
+              <h1>Starters</h1>
+              <h2>{4 Pack}</h2>
+            </div>
+          </div>
+          <div>
+            <h1>$ <span class="price">0.00</span></h1>
+          </div>
+          <div>
             <div class="button1">
-            <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
-            <button class="decrement">-</button>
-            <span class="quantity">1</span>
-            <button class="increment">+</button>
-            <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
+              <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
+              <button class="decrement">-</button>
+              <span class="quantity">1</span>
+              <button class="increment">+</button>
+              <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
             <button class="delete">Delete</button> -->
             </div>
-     </div>
-     <div>
-         <h1>$0.00</h1>
-      </div>
-    </div>
-    </div>
-    <hr>
-    <div class="cart4">
-        <div class="cart1"> 
-        <div id="cart1a">
-        <img src="./res/Charcoal.jpg" alt="">
-        <div>
-            <p>Solo Stove</p>
-            <h1>Charcoal Grill Pack</h1>
+          </div>
+          <div>
+            <h1>$ <span class="total">0.00</span></h1>
+          </div>
         </div>
-    </div>
-     <div>
-       <h1>$0.00</h1> 
-     </div>
-     <div>
+        <hr />
+        <div class="cart1">
+          <div id="cart1a">
+            <img src="./res/Charcoal.jpg" alt="" />
+            <div>
+              <p>Solo Stove</p>
+              <h1>Charcoal Grill Pack</h1>
+            </div>
+          </div>
+          <div>
+            <h1>$ <span class="price">0.00</span></h1>
+          </div>
+          <div>
             <div class="button1">
-            <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
-            <button class="decrement">-</button>
-            <span class="quantity">1</span>
-            <button class="increment">+</button>
-            <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
+              <!-- <img class="img" src="res/the-dk-photography-NUoPWImmjCU-unsplash.jpg" alt=""> -->
+              <button class="decrement">-</button>
+              <span class="quantity">1</span>
+              <button class="increment">+</button>
+              <!-- <button class="like"><img class="pink" src="res/red.png" alt=""></button>
             <button class="delete">Delete</button> -->
             </div>
-     </div>
-     <div>
-         <h1>$0.00</h1>
+          </div>
+          <div>
+            <h1>$ <span class="total">0.00</span></h1>
+          </div>
+        </div>
+        <hr />
       </div>
-    </div>
-</div>
-<hr>
-</section>
-<section>
-    <div class="end">
+    </section>
+    <section>
+      <div class="end">
         <div class="ends">
-            <p>Subtotal:</p>
-            <h1>$1,019.98</h1>
+          <p>Subtotal:</p>
+          <h1>$1,019.98</h1>
         </div>
-        <hr>
+        <hr />
         <div class="ends">
-            <p>Sales Tax:</p>
-            <h1>$102.00</h1>
+          <p>Sales Tax:</p>
+          <h1>$ <span>102.00</span></h1>
         </div>
-        <hr>
+        <hr />
         <div class="ends">
-            <p>Grand Total:</p>
-            <h1>$1,121.98</h1>
+          <p>Grand Total:</p>
+          <h1>$ <span>1,121.98</span></h1>
         </div>
-    </div>
-</section>
-</body>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
